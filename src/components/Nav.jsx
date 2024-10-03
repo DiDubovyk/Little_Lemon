@@ -10,13 +10,16 @@ const Nav = () => {
           <a href="#menu">Menu</a>
         </li>
         <li>
-          <a href="#book">Table Reservation</a>
+          <a href="#book">Reservations</a>
         </li>
         <li>
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Order online</a>
+        </li>
+        <li>
+          <a href="#login">Login</a>
         </li>
       </ul>
     </nav>
