@@ -1,4 +1,6 @@
-import plate from "../assets/Hero_img.png"
+import plate from "../../assets/Hero_img.png"
+import "./Hero.css";
+
 const Hero = () => {
   return (
     <div className="hero-container">
