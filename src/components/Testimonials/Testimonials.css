@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap');
+
+.testimonials-container {
+    background-color:#495e57;
+    padding:3rem 5rem;
+}
+
+.review-container {
+    background-color:white;
+}
+
+.testimonials-content {
+    display:flex;
+    justify-content:space-evenly;
+    padding:0 5rem;
+}
+
+.testimonials-heading h1 {
+font-family:'Markazi Text', serif;
+  font-weight:300;
+  font-size:4rem;
+  color:white;
+  text-align:center;
+}
+
+.review-container {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:white;
+  max-width: 100%;
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding:0 0.3rem;
+}
+
+.review-heading {
+    display:flex;
+    justify-content:space-between;
+}

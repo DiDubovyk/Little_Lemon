@@ -1,0 +1,12 @@
+.about-container {
+    display:flex;
+    background-color:#E9E9E9;
+    padding:3rem 5rem;
+}
+
+.about-imgs {
+    width:1/2;
+    padding:5rem;
+     position: relative;
+}
+

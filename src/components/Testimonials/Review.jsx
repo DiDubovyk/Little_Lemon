@@ -1,11 +1,11 @@
 const Review = (props) => {
   return (
-    <>
-      <div>
+    <div className="review-container">
+      <div className="review-heading">
         <img src={props.photo} alt="Profile" />
         <h3>{props.name}</h3>
       </div>
-      <div>
+      <div className="review-text">
         <div>
           {Array(props.stars)
             .fill()
@@ -17,7 +17,7 @@ const Review = (props) => {
         </div>
         <p>{props.text}</p>
       </div>
-    </>
+    </div>
   );
 };
 
