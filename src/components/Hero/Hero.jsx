@@ -1,4 +1,5 @@
 import plate from "../../assets/Hero_img.png"
+import { DESCRIPTION_SHORT } from "../../constants";
 import "./Hero.css";
 
 const Hero = () => {
@@ -12,8 +13,7 @@ const Hero = () => {
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            {DESCRIPTION_SHORT}
           </p>
         </div>
         <div className="hero-button">

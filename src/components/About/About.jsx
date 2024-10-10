@@ -1,6 +1,7 @@
 import "./About.css";
 import above from "../../assets/About_above.png";
 import under from "../../assets/About_under.png"
+import { DESCRIPTION_LONG } from "../../constants";
 
 const About = () => {
   return (
@@ -13,9 +14,7 @@ const About = () => {
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>
-          lorem ipsum blah blah blah blah blah blah here on several lines of
-          course ... lorem rpl ipsum blah blah blah blah blah blah here on
-          several lines of course ...
+          {DESCRIPTION_LONG}
         </p>
       </div>
     </div>

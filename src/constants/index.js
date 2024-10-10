@@ -6,6 +6,33 @@ import review2 from "../assets/review2.png";
 import review3 from "../assets/review3.png";
 import review4 from "../assets/review4.png";
 
+export const NAVIGATION = [
+    {
+        title:"Home",
+        href:"#home"
+    }, {
+        title:"Menu",
+        href:"#menu"
+    }, {
+        title:"Reservations",
+        href:"#book"
+    }, {
+        title:"About",
+        href:"#about"
+    }, {
+        title:"Order online",
+        href:"#order"
+    }, {
+        title:"Login",
+        href:"#login"
+    }
+]
+
+export const DESCRIPTION_LONG = "Little Lemon is a local family-owned restaurant offering authentic Italian cuisine. With a cozy atmosphere and a focus on fresh, high-quality ingredients, it's the perfect spot to enjoy traditional dishes made with love and passion.";
+
+export const DESCRIPTION_SHORT = "Experience authentic Italian flavors at Little Lemon, your local family-owned restaurant—join us today for a taste of tradition!";
+
+export const DESCRIPTION_SHORTEST = "Experience authentic Italian flavors at Little Lemon";
 
 export const SPECIALS = [
     {
@@ -49,3 +76,29 @@ text:"Very nice place, cozy environment. The desserts were amazing!"}, {name: "M
     stars:3,
 text:"Decent food, but the wait was a bit long. Overall, a good experience."}
 ]
+
+export const WORKING_HOURS = [
+    {
+        title: "Monday - Friday",
+        hours:"8am - 10pm"
+    },
+    {
+        title: "Saturday & Sunday",
+        hours: "8am - 10pm"
+    },
+    {
+        title: "Online Ordering",
+        hours:"8am - 10pm"}
+]
+
+export const ADDRESS = [{
+    purpose:"Our address",
+    adr:"Chicago Central street"
+},
+    {
+        purpose: "Call Us",
+        adr: "+01 167 444 00 00"
+    },
+    {
+        purpose: "Our Email",
+    adr:"contact@littlelemon.com"}]

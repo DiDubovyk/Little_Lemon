@@ -1,0 +1,45 @@
+.footer-container {
+    background-color:#495e57;
+    padding:3rem 7rem;
+    display:flex;
+    justify-content:space-evenly;
+    color:white;
+}
+
+svg {
+    width:2rem;
+    height:auto;
+    color:white;
+}
+
+.footer-social p {
+    font-weight:100;
+    font-size:1.2rem;
+}
+
+.social-media {
+    display:flex;
+    justify-content:flex-start;
+    gap:1rem;
+}
+
+.footer-social {
+    max-width: 100%;
+  width: 300px;
+}
+
+.footer-nav a {
+    text-decoration:none;
+    color:white;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding:0;
+}
+
+.footer-nav ul {
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}

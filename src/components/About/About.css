@@ -5,7 +5,6 @@
     padding:3rem 5rem;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    min-height:100vh;
 }
 
 .about-text {
@@ -35,7 +34,9 @@
 }
 
 .about-imgs {
-    position:relative;
+    position: relative;
+    background-color: #E9E9E9;
+    height: 500px;
 }
 
 .img-under {
