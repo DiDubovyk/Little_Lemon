@@ -5,6 +5,7 @@ import logo from "../../assets/logo-footer.png";
 import { ReactComponent as LogoX } from "../../assets/logoX.svg";
 import "./Footer.css";
 import { ADDRESS, DESCRIPTION_SHORTEST, NAVIGATION, WORKING_HOURS } from "../../constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -32,9 +33,9 @@ const Footer = () => {
         <ul>
           {NAVIGATION.map((nav, index) => (
             <li>
-              <a href={nav.href} key={index}>
+              <Link to={nav.href} key={index}>
                 {nav.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

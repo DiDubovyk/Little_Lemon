@@ -9,22 +9,22 @@ import review4 from "../assets/review4.png";
 export const NAVIGATION = [
     {
         title:"Home",
-        href:"#home"
+        href:"/home"
     }, {
         title:"Menu",
-        href:"#menu"
+        href:"/menu"
     }, {
         title:"Reservations",
-        href:"#book"
+        href:"/book"
     }, {
         title:"About",
-        href:"#about"
+        href:"/about"
     }, {
         title:"Order online",
-        href:"#order"
+        href:"/order"
     }, {
         title:"Login",
-        href:"#login"
+        href:"/login"
     }
 ]
 
