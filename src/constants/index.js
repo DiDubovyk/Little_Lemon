@@ -10,10 +10,7 @@ export const NAVIGATION = [
     {
         title:"Home",
         href:"/home"
-    }, {
-        title:"Menu",
-        href:"/menu"
-    }, {
+    },{
         title:"Reservations",
         href:"/book"
     }, {
@@ -22,9 +19,6 @@ export const NAVIGATION = [
     }, {
         title:"Order online",
         href:"/order"
-    }, {
-        title:"Login",
-        href:"/login"
     }
 ]
 
