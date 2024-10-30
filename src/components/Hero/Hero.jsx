@@ -8,7 +8,7 @@ const Hero = () => {
   const currentPath = location.pathname;
   return (
     <div>
-      {currentPath === "/home" ? (
+      {currentPath === "/home"|| currentPath==="/" ? (
         <div className="hero-container">
           <div className="img-container">
             <img className="hero-image" src={plate} alt="Food" height={570} />
@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
         </div>
       ) : (
-        <div className="hero-container">
+        <div className="hero-container" style={{height:"20rem"}}>
           <h1 className="reserv-text">Welcome to our restaurant reservation form!</h1>
         </div>
       )}
