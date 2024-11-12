@@ -3,14 +3,13 @@ import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 
-const Reservations = () => {
+const Reservations = (props) => {
   return (
       <>
           <Header />
       <Hero />
-      <BookingForm />
+      <BookingForm inputs={props.inputs} setInputs={props.setInputs} availableTimes={props.availableTimes} handleDChange={props.handleDChange} handleSubmit={props.handleSubmit} />
           <Footer />
-      
     </>
   )
 }

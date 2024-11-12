@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       ) : (
         <div className="hero-container" style={{height:"20rem"}}>
-          <h1 className="reserv-text">Welcome to our restaurant reservation form!</h1>
+            {currentPath === "/book" ? (<h1 className="reserv-text">Welcome to our restaurant reservation form!</h1>) : null}
         </div>
       )}
     </div>
